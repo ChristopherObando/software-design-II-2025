@@ -1,7 +1,7 @@
 # Tarea 2 – Refactorización de Código
 
 **Curso:** CI-0136 Diseño de Software – II Ciclo 2025  
-**Estudiante:** Christopher Obando Salgado
+**Estudiante:** Christopher Obando Salgado - C05610
 **Repositorio** [Repositorio de github](https://github.com/ChristopherObando/software-design-II-2025)
 **Código refactorizado:** `src/libro.py`, `src/biblioteca.py`  
 
