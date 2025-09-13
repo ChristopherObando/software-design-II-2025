@@ -2,6 +2,7 @@
 
 **Curso:** CI-0136 Diseño de Software – II Ciclo 2025  
 **Estudiante:** Christopher Obando Salgado
+**Repositorio** [Repositorio de github](https://github.com/ChristopherObando/software-design-II-2025)
 **Código refactorizado:** `src/libro.py`, `src/biblioteca.py`  
 
 ---
@@ -93,7 +94,7 @@
 
 -   **Qué se cambio:** extraigo el cálculo del reporte a `Biblioteca.generar_resumen(...) -> Resumen` (sin `print`); y dejo toda la salida en `Biblioteca.imprimir_detalle_y_reporte(...)`.
     
--   **Resultado:** ahora puedo probar números sin capturar `stdout` y reutilizar la lógica en otra UI (CLI/Web/API).
+-   **Resultado:** ahora se puede probar números sin capturar `stdout` y reutilizar la lógica en otra UI (CLI/Web/API).
     
 
 ```python
@@ -132,7 +133,7 @@ def imprimir_libro(libro, reglas=None, anios_para_antiguo=45):
 
 ### 2.3 Enum + Estrategia de popularidad (OCP)
 
--   **Qué se cambio:** `Genero` como `Enum` reemplaza strings mágicos; uso **Estrategia** por género y un mapa-dispatcher.
+-   **Qué se cambio:** `Genero` como `Enum` reemplaza strings mágicos; se usa **Estrategia** por género y un mapa-dispatcher.
     
 -   **Resultado:** agregar un género implica **añadir** una clase-regla y registrarla, sin modificar el núcleo.
     
