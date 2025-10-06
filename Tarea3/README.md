@@ -1,5 +1,5 @@
 
-# Tarea 3 — Sistema de Pedidos de Comida con Concurrencia (Versión Modular)
+# Tarea 3 — Sistema de Pedidos de Comida con Concurrencia
 
 **Autor:** Christopher Obando - C05610  
 **Lenguaje:** Python 3.8+
