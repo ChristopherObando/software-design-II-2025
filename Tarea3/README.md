@@ -3,7 +3,7 @@
 
 **Autor:** Christopher Obando - C05610  
 **Lenguaje:** Python 3.8+
-
+**Repositorio** [Repositorio de github](https://github.com/ChristopherObando/software-design-II-2025)
 ---
 
 ## Cómo ejecutar
