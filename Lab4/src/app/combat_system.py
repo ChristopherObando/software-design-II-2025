@@ -10,8 +10,12 @@ class CombatSystem(ICombatSystem):
             return f"{target.name} ya está derrotado"
         
         result = weapon.attack(attacker, target)
+
+         # --- CAMBIO: si el arma imbuida desactiva críticos, omitir ---
+        if getattr(weapon, "disable_critical", False):
+            return result
+
         critical = self.damage_calculator.check_critical_hit()
-        
         if critical:
             bonus_damage = 10
             target.take_damage(bonus_damage)

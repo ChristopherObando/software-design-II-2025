@@ -3,6 +3,8 @@ class Character:
         self.name = name
         self.health = health
         self.is_alive = True
+        # --- NUEVO ---
+        self.elements = set()  # conjunto de elementos “pegados”
     
     def take_damage(self, damage):
         self.health -= damage
@@ -13,3 +15,10 @@ class Character:
     def heal(self, amount):
         if self.is_alive:
             self.health += amount
+
+    # --- NUEVO ---
+    def apply_element(self, element):
+        self.elements.add(element)
+
+    def clear_elements(self):
+        self.elements.clear()
