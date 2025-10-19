@@ -1,4 +1,4 @@
-# Lab 4 — Pruebas con dobles y DI (Software Design II)
+# Lab 4 — Pruebas con dobles y DI
 
 ![CI – lab4-tests](https://github.com/ChristopherObando/software-design-ii-2025/actions/workflows/tests.yml/badge.svg?branch=main)
 
